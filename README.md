@@ -51,7 +51,7 @@ This is a machine learning-based job recommendation system that helps users find
 
 | Homepage                             | Recommendations Page               |
 |-------------------------------------|------------------------------------|
-| ![Homepage](\job_recommender\Screenshot 2025-06-20 015648.png) | ![Results](Screenshot%202025-06-20%20015714.png) |
+| ![Homepage](job_recommender\Screenshot 2025-06-20 015648.png) | ![Results](Screenshot%202025-06-20%20015714.png) |
 
 ---
 
