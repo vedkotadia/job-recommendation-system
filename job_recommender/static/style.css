@@ -1,0 +1,29 @@
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f5f7fa;
+  padding: 40px;
+}
+.container {
+  background: #fff;
+  padding: 30px;
+  max-width: 700px;
+  margin: auto;
+  border-radius: 10px;
+  box-shadow: 0 0 15px #ccc;
+}
+.job-box {
+  background: #e6f2ff;
+  padding: 15px;
+  margin-top: 20px;
+  border-left: 5px solid #0059b3;
+}
+h2, h3 {
+  color: #333;
+}
+button {
+  padding: 10px 20px;
+  background: #0059b3;
+  color: white;
+  border: none;
+  border-radius: 5px;
+}

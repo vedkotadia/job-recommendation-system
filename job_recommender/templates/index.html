@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Job Recommender</title>
+  <link rel="stylesheet" href="/static/style.css">
+</head>
+<body>
+  <div class="container">
+    <h2>📄 Upload Your Resume</h2>
+    <form method="POST" enctype="multipart/form-data">
+      <input type="file" name="resume" accept=".pdf" required>
+      <button type="submit">Find Jobs</button>
+    </form>
+
+    {% if results %}
+      <h3>🔍 Top 5 Matching Jobs</h3>
+      {% for job in results %}
+        <div class="job-box">
+          <h4>{{ job.title }} — {{ job.score }}%</h4>
+          <p>{{ job.description }}</p>
+        </div>
+      {% endfor %}
+    {% endif %}
+  </div>
+</body>
+</html>
