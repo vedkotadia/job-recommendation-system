@@ -101,17 +101,6 @@ http://127.0.0.1:5000
 
 These are saved as `.png` files and shown optionally on the dashboard.
 
----
-
-## 📃 License
-
-This project is open source under the [MIT License](LICENSE).
-
----
-
-## 👨‍💻 Author
-
-**Ved Kotadia**
 
 Feel free to reach out via GitHub for questions or improvements.
 
